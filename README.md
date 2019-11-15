@@ -39,21 +39,31 @@ test <- read.csv("test.csv", header = TRUE)
 ### 3a. pclass and survival
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-02.png)
 
-### 3a. pclass and title
+### 3b. Relationship between pclass, survival, and title
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-01.png)
 
+### 3c. Relationship between pclass, sex, and survival
+![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-01.png)
+
+### 3d Survival rates as sex, pclass, and age
+![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-01.png)
 
 # 4. Building Machine Learning Models
+## 4a. Train a Random Forest (using pclass and title)
+![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/plot_zoom_png)
 
-## 4a. Applying Random forest and finding out the important variables for prediction
+## 4b. Applying Random forest and finding out the important variables for prediction
 The titles (Mr, Mrs, Miss, Master) has value in predicting the passenger survival as compared to pclass (1, 2, 3), family size, and parch
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/plot_zoom_png)
 
-## 4b. Prediction visualizing using decision tree
+## 4c. Prediction visualizing using decision tree
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-33.png)
 
-
+Titles of "Mr." and "Other" are predicted to perish at an overall accuracy rate of 83.2 %.
+Titles of "Master.", "Miss.", and "Mrs." in 1st & 2nd class are predicted to survive
+Titles of "Master.", "Miss.", and "Mrs." in 3rd class with family sizes equal to 5, 6, 8, & 11 are predicted to perish with 100% accuracy.
+Titles of "Master.", "Miss.", and "Mrs." in 3rd class with family sizes not equal to 5, 6, 8, or 11 are predicted to survive with 59.6% accuracy.
 If a person has title Mr and "other", he will survive at 91 instances. 
 If the title is neither Mr and "other", may be (Mrs, Miss), and if these people are in the  3 class, with alrge family size none of them will survive. Small family size, 83 instance of survival.
-If the title is neither Mr and "other", may be (Mrs, Miss), and if these people are not in the  3 class, 168 instnace of survival
+If the title is neither Mr and "other", may be (Mrs, Miss), and if these people are not in the  3 class, 168 instance of survival
 
