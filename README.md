@@ -49,6 +49,8 @@ The titles (Mr, Mrs, Miss, Master) has value in predicting the passenger surviva
 
 # 4 Prediction visualizing using decision tree
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-33.png)
+
+
 If a person has title Mr and "other", he will survive at 91 instances. 
 If the title is neither Mr and "other", may be (Mrs, Miss), and if these people are in the  3 class, with alrge family size none of them will survive. Small family size, 83 instance of survival.
 If the title is neither Mr and "other", may be (Mrs, Miss), and if these people are not in the  3 class, 168 instnace of survival
