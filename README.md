@@ -47,21 +47,46 @@ test <- read.csv("test.csv", header = TRUE)
 ### 3b. Relationship between pclass, survival, and title
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/pclass-survival-title.png)
 
+If a person title is "Mr" and he happens to be in the third class, he is most likely to perish
+
+The passenger with title "Mr" is more likely to perish wherther he is in 1 st, 2nd, and 3rd class
+
+Most of the females are in the 1st and 2nd class.
+
+Females in the 1st and 2nd class are more likely to survive
+
 ### 3c. Relationship between pclass, sex, and survival
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/sex-pclass-survival.png)
 
 ### 3d Survival rates as sex, pclass, and age
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Survival%20rates-sex-pclass-age.png)
 
+### conclusion:
+*pclass, title, sibsp, parch, and family size* varaibles have influence on the passenger survival
+*ticket number, fares, cabin, embarked* variables have no influence  on the passenger survival
+*pclass, title, sibsp, parch, and family size* is used for building machine learning model
+
 # 4. Building Machine Learning Models
 ## 4a. Train a Random Forest (using pclass and title)
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/rf-title-pclass.png)
 
-## 4b. Applying Random forest and finding out the important variables for prediction
+## 4b Train a Random Forest using pclass, title, & family.size
+![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/rf-title-pclass.png)
+
+OOB estimate of error rate: 18.18% (min)
+
+Confusion matrix:
+
+	0	   1	 Class Error
+0	486	63	0.1147541
+1	99	243	0.2894737
+
+
+## 4c. Applying Random forest and finding out the important variables for prediction
 The titles (Mr, Mrs, Miss, Master) has value in predicting the passenger survival as compared to pclass (1, 2, 3), family size, and parch
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/plot_zoom_png)
 
-## 4c. Prediction visualizing using decision tree
+## 4d.Visualizing as a decision tree
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-33.png)
 
 Titles of "Mr." and "Other" are predicted to perish at an overall accuracy rate of 83.2 %.
