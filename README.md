@@ -77,7 +77,9 @@ OOB estimate of error rate: 18.18% (min)
 
 Confusion matrix:
 	0	1	Class Error
+	
 0	486	63	0.1147541
+
 1	99	243	0.2894737
 
 
