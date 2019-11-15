@@ -31,7 +31,9 @@ load the training and testing data sets in to the R studio
 
 # 3. Data cleaning and Analysis
 ### Loading the train and test data
+
 train <- read.csv("train.csv", header = TRUE)
+
 test <- read.csv("test.csv", header = TRUE)
 
 ### 3a. pclass and survival
