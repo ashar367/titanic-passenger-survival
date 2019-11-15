@@ -71,9 +71,11 @@ Females in the 1st and 2nd class are more likely to survive
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/rf-title-pclass.png)
 
 ## 4b Train a Random Forest using pclass, title, & family.size
-![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/rf-title-pclass.png)
+![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/rf-title-familysize-pclass)
 
 OOB estimate of error rate: 18.18% (min)
+Accepted
+variables *pclass, title, & family.size* determines/ predicts the survival of titanic passenger
 
 ## 4c. Applying Random forest and finding out the important variables for prediction
 The titles (Mr, Mrs, Miss, Master) has value in predicting the passenger survival as compared to pclass (1, 2, 3), family size, and parch
@@ -96,3 +98,6 @@ If the title is neither Mr and "other", may be (Mrs, Miss), and if these people 
 
 If the title is neither Mr and "other", may be (Mrs, Miss), and if these people are not in the  3 class, 168 instance of survival
 
+# 5. Predicting variables for passenger survivals
+
+variables *pclass, title, & family.size* determines/ predicts the survival of titanic passenger
