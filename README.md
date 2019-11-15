@@ -45,4 +45,4 @@ test <- read.csv("test.csv", header = TRUE)
 
 
 # 4 Applying Random forest and visualizing using dicion tree
-![Image of objects]()
+![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-33.png)
