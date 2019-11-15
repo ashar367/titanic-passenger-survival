@@ -1,4 +1,4 @@
-# titanic-passenger-survival
+# Predicting the Survival of Titanic Passengers
 
 *Predict passengers being dead/alive using titanic datasets applying R language and Random forest*
 
