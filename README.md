@@ -39,6 +39,8 @@ test <- read.csv("test.csv", header = TRUE)
 ### 3a. pclass and survival
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-02.png)
 
-### 3a. pclass and survival
-![Image of objects]()
+### 3a. pclass and title
+![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-01.png)
 
+### 3a. pclass and sex
+![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-03.png)
