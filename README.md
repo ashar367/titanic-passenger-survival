@@ -43,6 +43,8 @@ test <- read.csv("test.csv", header = TRUE)
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-01.png)
 
 
+# 4 Applying Random forest and finding out the important variables for prediction
+![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/plot_zoom_png)
 
-# 4 Applying Random forest and visualizing using decision tree
+# 4 Prediction visualizing using decision tree
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-33.png)
