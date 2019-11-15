@@ -43,6 +43,8 @@ test <- read.csv("test.csv", header = TRUE)
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-01.png)
 
 
+*# Building Machine Learning Models*
+
 # 4 Applying Random forest and finding out the important variables for prediction
 The titles (Mr, Mrs, Miss, Master) has value in predicting the passenger survival as compared to pclass (1, 2, 3), family size, and parch
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/plot_zoom_png)
