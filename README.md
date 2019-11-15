@@ -75,15 +75,6 @@ Females in the 1st and 2nd class are more likely to survive
 
 OOB estimate of error rate: 18.18% (min)
 
-Confusion matrix:
-	|0	|1	|Class Error
---------|-------| ------|-----------
-0	|486	|63	|0.1147541
-1	|99	|243	|0.2894737
-
-
-
-
 ## 4c. Applying Random forest and finding out the important variables for prediction
 The titles (Mr, Mrs, Miss, Master) has value in predicting the passenger survival as compared to pclass (1, 2, 3), family size, and parch
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/plot_zoom_png)
