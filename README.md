@@ -37,7 +37,7 @@ train <- read.csv("train.csv", header = TRUE)
 test <- read.csv("test.csv", header = TRUE)
 
 ### 3a. pclass and survival
-![Image of objects]()
+![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-02.png)
 
 ### 3a. pclass and survival
 ![Image of objects]()
