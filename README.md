@@ -42,5 +42,7 @@ test <- read.csv("test.csv", header = TRUE)
 ### 3a. pclass and title
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-01.png)
 
-### 3a. pclass
+
+
+# 4 Applying Random forest and visualizing using dicion tree
 ![Image of objects]()
