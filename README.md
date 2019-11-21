@@ -37,9 +37,11 @@ load the training and testing data sets in to the R studio
 # 3. Data cleaning and Analysis
 ### Loading the train and test data
 
+```
 train <- read.csv("train.csv", header = TRUE)
 
 test <- read.csv("test.csv", header = TRUE)
+```
 
 ### 3a. pclass and survival
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-02.png)
@@ -100,4 +102,6 @@ If the title is neither Mr and "other", may be (Mrs, Miss), and if these people 
 
 # 5. Predicting variables for passenger survivals
 
+```
 variables *pclass, title, & family.size* determines/ predicts the survival of titanic passenger
+```
