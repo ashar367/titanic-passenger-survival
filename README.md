@@ -84,7 +84,9 @@ The titles (Mr, Mrs, Miss, Master) has value in predicting the passenger surviva
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/plot_zoom_png)
 
 ## 4d.Visualizing as a decision tree
+```
 ![Image of objects](https://github.com/ashar367/titanic-passenger-survival/blob/master/image/Rplot-33.png)
+```
 
 Titles of "Mr." and "Other" are predicted to perish at an overall accuracy rate of 83.2 %.
 
